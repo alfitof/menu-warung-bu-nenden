@@ -1,3 +1,7 @@
+html {
+  background: hsl(59, 53%, 58%);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -58,4 +62,21 @@ li:hover {
   flex-wrap: wrap;
   gap: 4em;
   padding: 3em 4em 4em 4em;
+}
+
+@media only screen and (max-width: 434px) {
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .type {
+    margin-left: 20%;
+  }
+  .menu {
+    margin-left: 20%;
+    text-align: center;
+  }
+  .ligne {
+    margin-left: 20%;
+  }
 }
