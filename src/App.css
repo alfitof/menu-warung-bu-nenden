@@ -70,13 +70,16 @@ li:hover {
     padding-right: 2rem;
   }
   .type {
-    margin-left: 5%;
+    margin-left: 9%;
   }
   .menu {
-    margin-left: 8%;
+    margin-left: 13%;
     text-align: center;
   }
   .ligne {
-    margin-left: 8%;
+    margin-left: 13%;
+  }
+  .card {
+    margin-left: 0.2rem;
   }
 }
